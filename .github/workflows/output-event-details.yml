@@ -1,7 +1,5 @@
 name: Output Event Details
-on:
-    issues:
-        types: [opened, edited]
+on: workflow_dispatch
 jobs:
     info:
         runs-on: ubuntu-latest
